@@ -11,6 +11,14 @@
         <h1>Linear Search Visualization</h1>
         <div id="array-container"></div>
         <div class="controls">
+            <input type="number" id="add-input" placeholder="Number to add">
+            <button onclick="addNumber()">Add Number</button>
+            <input type="number" id="remove-input" placeholder="Number to remove">
+            <button onclick="removeNumber()">Remove Number</button>
+            <button onclick="clearArray()">Clear Array</button>
+            <button onclick="generateRandomArray()">Generate Random Array</button>
+        </div>
+        <div class="search-controls">
             <input type="number" id="search-input" placeholder="Enter number to search">
             <button onclick="startSearch()">Search</button>
         </div>
